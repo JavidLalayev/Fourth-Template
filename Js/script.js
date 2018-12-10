@@ -15,3 +15,16 @@ function klikle2(){
 	root.style.setProperty('--color2', 'black');
 
 }
+
+jQuerry(document).ready(function(){
+
+	"use strict"
+
+	$('.slider').ripples({
+		dropRadius: 10,
+		perturbance: 0.01,
+	});
+
+
+});
+
